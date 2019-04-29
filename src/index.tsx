@@ -3,6 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+/**
+ * Bootstrap
+ */
+import 'bootstrap/dist/css/bootstrap.css';
+/**
+ * Cutom Themes
+ */
+import './custom.scss';
+
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
